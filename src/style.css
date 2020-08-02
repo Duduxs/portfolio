@@ -1,0 +1,31 @@
+h1{
+font-size: 50pt;
+}
+header{
+   text-align: center;
+}
+
+ul{
+  
+ list-style:none;
+ display: flex;
+ width: 95%;
+ justify-content: space-between;
+
+}
+
+li{
+    width: 33%;
+    padding: 1%;
+    border-top: 2px solid black;
+    border-bottom: 1px rgba(84,130,140,.5) solid;
+    border-left: 1px rgba(84,130,140,.5) solid;
+    border-right: 1px rgba(84,130,140,.5) solid;
+    transition: all .85s ease-out;
+}
+
+li:hover{
+
+background-color: rgb(1, 1, 20);
+
+}

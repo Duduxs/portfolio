@@ -12,6 +12,7 @@
         body{
             font-family: 'Recursive', sans-serif;
             font-size: 10pt;
+         
         }
         p{
             font-family: 'Raleway', sans-serif;
@@ -30,6 +31,39 @@
         article{
             margin-bottom: 800px;
         }
+
+        #skills li{
+            font-family:'Raleway', sans-serif;
+            font-weight: bold;
+            padding: 2%;
+       
+            width: 200px;
+            text-align: center;
+            border-radius: 5pt;
+            box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+            transition: all 0.8s ease-out;
+         
+        }
+       #skills li:hover{
+            background-color: aliceblue;
+            border-bottom: 3px solid;
+            -webkit-transform: scale(1.1);
+        }
+
+        .english li{
+            height: 475px;
+            width: 300px;
+            text-align: center;
+            font-family:'Raleway', sans-serif;
+            font-size: 50px;
+            background-color: rgb(117, 216, 117);
+            font-weight: bold;
+            padding: 2%;
+            margin: 0;
+            border-radius: 5pt;
+            box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+        }
+ 
     </style>
 
 </head>
@@ -58,12 +92,35 @@
     <header>
         <h1>All of the technologies that i know</h1>
     </header>
-    <p>
-        With Google Glass it will be possible to take photos with up to 5 megapixels and record videos with 720 lines of resolution. The first videos and photos captured with the device have already started circulating on the network, but so far no one has much technical information.
-    </p>
-    
-</article>
+    <ul class='nav_skills'>
+        <li>Java</li>
+        <li>JPA</li>
+        <li>Hibernate</li>
+        <li>Spring Boot</li> 
+        <li>JavaFX</li>
+      
+     
+    </ul>
+        <ul>
+            <li>JUnit 5</li>
+            <li>JFoenix</li>
+            <li>Swing</li>
+            <li>Javascript</li>
+            <li>Node.js</li> 
+      
+        
+        </ul>
 
+        <ul>
+            <li>CSS3</li>
+            <li>HTML5</li>
+            <li>C</li>
+            <li>Git/Git Flow</li>
+            <li>SQL</li>
+        </ul>
+
+</article>
+   
 <article id="projects">
 
         <header>
@@ -77,12 +134,17 @@
 
 <article id="languages">
     <header>
-        <h1>My language level</h1>
+        <h1>My English level</h1>
     </header>
 
-    <p>
-        According to Google itself, the Glass will come with a battery that has enough autonomy to last an entire day. Only a few activities like videoconferencing and long filming will require a little more. In addition it comes with WiFi, Bluetooth, 3G / 4G and more.
-    </p>
+    <div>
+        <ul class='english'>
+            <li>Reading</li>
+            <li style='height: 300pt;margin-top: 57pt;'>Writing</li>
+            <li style='height: 250pt;margin-top: 107pt;'>Listening</li>
+            <li style='height: 150pt;margin-top: 207pt;'>Speaking</li>
+        </ul>
+    </div>
 
         </article>
     </body>

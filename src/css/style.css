@@ -1,3 +1,7 @@
+iframe{
+    border: none;
+}
+
 header {
     text-align: center;
 }
@@ -9,34 +13,102 @@ ul {
     justify-content: space-between;
 }
 
-li {
+.navigation li {
     width: 33%;
     padding: 1%;
-    border-top: 2px solid black;
-    border-bottom: 1px rgba(84, 130, 140, .5) solid;
-    border-left: 1px rgba(84, 130, 140, .5) solid;
-    border-right: 1px rgba(84, 130, 140, .5) solid;
+    border-top: 2px solid #C4E2F2;
+    border-bottom: 1px #C4E2F2 solid;
+    border-left: 1px #C4E2F2 solid;
+    border-right: 1px #C4E2F2 solid;
     transition: all .85s ease-out;
 }
 
-li:hover {
-    background-color: rgb(1, 1, 20);
+.navigation li:hover {
+    background-color:#A7D7DB;
+
 }
 
 body {
     font-family: 'Recursive', sans-serif;
     height: 100%;
+    background-color:#BDF9EE;
+}
+
+p:not(.footText){
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: justify;
+    text-indent: 20px;
+    padding-top: 20px;   
+}
+
+
+article h1{
+    font-size: 15pt;
+    color: Black;
+    background-color: #A7D7DB;
+    padding: 5px;
+    margin: 0px;
+}
+article{
+    margin-bottom: 800px;
+}
+
+#skills li{
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 2%;
+
+    width: 200px;
+    text-align: center;
+    border-radius: 5pt;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.8s ease-out;
+ 
+}
+#skills li:hover{
+    background-color: #A7D7DB;
+    border-bottom: 3px #BDC5F9 solid; 
+    -webkit-transform: scale(1.1);
+}
+
+.english li{
+    height: 475px;
+    width: 300px;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    font-size: 50px;
+    background-color:#BDF9EE;
+    font-weight: bold;
+    padding: 2%;
+    margin: 0;
+    border-radius: 5pt;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 footer {
     position: absolute;
     width: 100%;
-    height: 10%;
+    height: 8%;
     bottom: 0;
+    background-color:#A7D7DB;
+    
+}
+#anchor{
+    margin-top: 13px;
 }
 
-#footText{
+#anchor a{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+   
+}
+
+#section{
     position: relative;
     text-align: center;
     height: auto;
 }
+

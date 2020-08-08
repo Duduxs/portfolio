@@ -10,9 +10,6 @@ function clicked(id) {
             section.src = './index-info.html#skills';
             break;
         case 3:
-            section.src = './index-info.html#projects';
-            break;
-        case 4:
             section.src = './index-info.html#languages';
             break;
     }

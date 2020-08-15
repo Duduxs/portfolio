@@ -12,6 +12,7 @@ function clicked(id) {
         case 3:
             section.src = './index-info.html#languages';
             break;
+     
     }
  
 }

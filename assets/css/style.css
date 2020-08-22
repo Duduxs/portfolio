@@ -875,7 +875,10 @@ section {
 
 .services .icon-box .icon {
   margin-bottom: 10px;
+  color: #274475;
 }
+
+
 
 .services .icon-box .icon i {
   color: #47b2e4;
@@ -1832,6 +1835,10 @@ section {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
+}
+
+.myIcons{
+  color: #274475;
 }
 
 #footer .copyright {

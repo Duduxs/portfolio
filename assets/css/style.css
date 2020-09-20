@@ -616,6 +616,10 @@ section {
   font-size: 26px;
 }
 
+.about p{
+  text-align: justify;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -866,6 +870,7 @@ section {
   text-align: center;
   border-bottom: 3px solid #fff;
 }
+
 
 .services .icon-box:hover {
   transform: translateY(-5px);

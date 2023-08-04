@@ -871,6 +871,14 @@ section {
   border-bottom: 3px solid #fff;
 }
 
+.services p {
+  text-align: justify;
+}
+
+.services .fa-java {
+  margin-right: 20px;
+}
+
 
 .services .icon-box:hover {
   transform: translateY(-5px);
